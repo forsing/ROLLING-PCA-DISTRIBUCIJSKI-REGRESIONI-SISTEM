@@ -56,7 +56,7 @@ BROJ_SVIH_KOMBINACIJA = math.comb(
 )
 
 LOTO_CSV = (
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4682_k72.csv"
 )
 
@@ -1416,7 +1416,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ========================================================================================
 OBRADA: Loto
 ========================================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4682_k72.csv
+CSV: /data/loto7_4682_k72.csv
 Broj redova: 4,682
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1502,12 +1502,12 @@ Holdout prosek pogodaka:           1.234460
 Izabrane PCA komponente:           3
 Objašnjena PCA varijansa:          73.3162%
 Zaključani NEXT rang:              8,894,042
-NEXT:                              05, 07, 08, 09, 10, 24, 28
+NEXT:                              05, x, 08, y, 10, z, 28
 
 ########################################################################################
 KONAČNA NEXT PREDIKCIJA
 ########################################################################################
-Loto:      05, 07, 08, 09, 10, 24, 28
+Loto:      05, x, 08, y, 10, z, 28
 Loto rang: 8,894,042
 
 Ukupno vreme: 16.42 sekundi
