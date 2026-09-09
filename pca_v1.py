@@ -58,12 +58,12 @@ BROJ_SVIH_KOMBINACIJA = math.comb(
 )
 
 LOTO_CSV = (
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4682_k72_loto_2963.csv"
 )
 
 LOTO_PLUS_CSV = (
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4682_k72_loto_plus_1719.csv"
 )
 
@@ -1439,7 +1439,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ========================================================================================
 OBRADA: Loto
 ========================================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_2963.csv
+CSV: /data/loto7_4682_k72_loto_2963.csv
 Broj redova: 2,963
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1525,12 +1525,12 @@ Holdout prosek pogodaka:           1.197208
 Izabrane PCA komponente:           3
 Objašnjena PCA varijansa:          73.7291%
 Zaključani NEXT rang:              11,112,767
-NEXT:                              07, 08, 09, 11, 12, 23, 33
+NEXT:                              07, x, 09, y, 12, z, 33
 
 ========================================================================================
 OBRADA: Loto Plus
 ========================================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_plus_1719.csv
+CSV: /data/loto7_4682_k72_loto_plus_1719.csv
 Broj redova: 1,719
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1616,15 +1616,15 @@ Holdout prosek pogodaka:           1.290123
 Izabrane PCA komponente:           2
 Objašnjena PCA varijansa:          60.5841%
 Zaključani NEXT rang:              7,075,087
-NEXT:                              04, 05, 07, 08, 11, 14, 31
+NEXT:                              04, x, 07, y, 11, z, 31
 
 ########################################################################################
 KONAČNE NEXT PREDIKCIJE
 ########################################################################################
-Loto:      07, 08, 09, 11, 12, 23, 33
+Loto:      07, x, 09, y, 12, z, 33
 Loto rang: 11,112,767
 
-Loto Plus:      04, 05, 07, 08, 11, 14, 31
+Loto Plus:      04, x, 07, y, 11, z, 31
 Loto Plus rang: 7,075,087
 
 Ukupno vreme: 26.97 sekundi
